@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @Shadow_10_YT
 
 import asyncio
 from configs import Config
@@ -17,7 +17,7 @@ async def handle_force_subscribe(bot, cmd):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/supoort_group_for_botz).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -42,7 +42,7 @@ async def handle_force_subscribe(bot, cmd):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+            text="Something went Wrong. Contact my [Support Group] https://t.me/supoort_group_for_botz
             parse_mode="markdown",
             disable_web_page_preview=True
         )
